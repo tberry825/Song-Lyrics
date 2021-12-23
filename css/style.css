@@ -1,0 +1,62 @@
+/* body {
+  background: url(https://image.freepik.com/free-vector/musical-colorful-notes-dark-background_1017-32302.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+body {
+  background: url(https://image.freepik.com/free-vector/musical-notes-with-sound-wave-background_1017-32863.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* body {
+  background: linear-gradient(orange, white);
+} */
+
+h1 {
+  color: black;
+  font-size: 55px;
+  text-shadow: 2px 2px 10px rgb(255, 0, 212);
+  font-family: Tangerines;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(255, 0, 212);
+  font-size: 25px;
+  text-align: center;
+}
+
+input {
+  height: 5vh;
+  width: 19vw;
+  border: solid 3px rgb(255, 0, 212);
+  border-radius: 10px;
+  background-color: rgb(236, 219, 236);
+}
+
+#artistName,
+#songName {
+  color: grey;
+  height: 50px;
+  width: 20vw;
+  text-align: center;
+  margin-left: 565px;
+}
+
+#submit {
+  color: grey;
+  height: 50px;
+  width: 20vw;
+  text-align: center;
+  margin-left: 570px;
+}
+
+p {
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  border: dotted 3px rgb(255, 0, 212);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyric Exercise</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="heading"><h1>What Song would you like Lyrics for?</h1></div>
+    <form id="getLyrics">
+      <h3><label for="artistName">Artist Name:</label></h3>
+      <input
+        type="text"
+        name="artistName"
+        id="artistName"
+        placeholder="Enter artist name..."
+        class="title"
+      /><br /><br />
+      <h3><label for="SongName">Song Name:</label></h3>
+      <input
+        type="text"
+        name="songName"
+        id="songName"
+        placeholder="Enter artist name..."
+        class="title"
+      /><br /><br />
+      <input type="submit" value="Retrieve Lyrics!" id="submit" />
+    </form>
+
+    <p class="songInput"></p>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
